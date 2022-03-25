@@ -40,8 +40,7 @@ public class App
 
         // EXIBINDO A PONTUAÇÃO FINAL DO JOGADOR E O TOTAL DE MOEDAS
         System.out.println("Pontuação final do jogador: " + jogador.getPontuacao()); 
-        System.out.println("Total de moedas: " + Conversor.converte_pontuacao_para_moedas(jogador.getPontuacao()));
-
+        System.out.println("Total de moedas: " + Conversor.convertePontuacaoParaMoedas(jogador.getPontuacao()));
 
     }
 }
